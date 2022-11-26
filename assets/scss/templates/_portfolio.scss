@@ -1,0 +1,82 @@
+.page-title {
+  padding: 125px 0 125px;
+
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .bg-shape-1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .bg-shape-2 {
+    position: absolute;
+    left: -4px;
+    top: 120px;
+    @media only screen and (max-width: 1400px) {
+    	left:-40px;
+    }
+    @media only screen and (max-width: 1200px) {
+    	opacity: 0.5;
+    }
+  }
+
+  .bg-shape-3 {
+    position: absolute;
+    left: 10%;
+    top: 100px;
+  }
+
+  .bg-shape-4 {
+    position: absolute;
+    right: 125px;
+    top: 120px;
+    // opacity: 0.5;
+    transform: rotate(180deg);
+    @media only screen and (max-width: 1400px) {
+	    display: none;
+    }
+  }
+
+  .bg-shape-5 {
+    position: absolute;
+    left: 90px;
+    top: 140px;
+    @media only screen and (max-width: 1400px) {
+	    transform: scale(0.7);
+	    left: 0px;
+    }
+    @media only screen and (max-width: 1200px) {
+	    display: none;
+    }
+  }
+
+  .bg-shape-6 {
+    position: absolute;
+    right: 20%;
+    bottom: -20px;
+  }
+
+  .bg-shape-7 {
+    position: absolute;
+    right: -220px;
+    top: 0px;
+    @media only screen and (max-width: 991px) {
+    	opacity: 0.5;
+    }
+  }
+}
+
+.filter-controls {
+  li {
+    cursor: pointer;
+
+    &.active {
+      font-weight: bold;
+    }
+  }
+}

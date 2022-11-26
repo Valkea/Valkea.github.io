@@ -1,0 +1,67 @@
+.card-lg {
+  flex-direction: row-reverse;
+  align-items: center;
+
+  @include desktop {
+    flex-direction: column;
+  }
+}
+
+blockquote {
+  display: table;
+  padding: 10px 20px;
+  background: $gray;
+  border-left: 2px solid $primary-color;
+  font-style: italic;
+  // font-size: 22px;
+  line-height: inherit;
+}
+
+blockquote p {
+  margin-bottom: 0px;
+}
+
+blockquote a {
+   color:$secondary-color;
+   font-style: normal;
+}
+
+blockquote ico {
+    color:$secondary-color;
+    font-size:1.5rem;
+}
+
+//blockquote > h2 {
+//  font-size: 25px;
+// }
+
+.content {
+  // * {
+  //    margin-bottom: 20px;
+  // }
+
+  strong {
+    font-family: $secondary-font;
+    // font-size: 22px;
+    font-weight: normal;
+    color: $text-color-dark;
+    // display: inherit;
+    line-height: 1.5;
+  }
+}
+
+hr // horizontal lines 
+{
+	border:0px;
+	border-top: 2px dotted #32a1ce;
+}
+
+code // `my text`  
+{
+    background-color: #EEEEEE;
+    color:$primary-color;
+    font-size: 15px;
+    font-family: $secondary-font;
+    padding-left: 4px;
+    padding-right: 4px;
+}
