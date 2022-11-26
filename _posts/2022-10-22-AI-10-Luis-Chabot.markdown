@@ -36,4 +36,4 @@ Le dépôt Git contient une présentation *(en anglais)* plus poussée du projet
 
 > ##### <a href='{{site.baseurl}}/assets/pdf/AI_P10_Note_suivi.pdf' target='_blank'>Ouvrir le document en grand</a>
 
-{% pdf "{{site.baseurl}}/assets/pdf/AI_P10_Note_suivi.pdf" no_link %}
+<iframe class='presentation_pdf' src="{{site.baseurl}}/assets/pdf/AI_P10_Note_suivi.pdf"></iframe>
