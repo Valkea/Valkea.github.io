@@ -1,4 +1,16 @@
+
 <head>
+
+  <!-- google tags -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FRG36JN9EJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-FRG36JN9EJ');
+  </script>
+
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.title }}{% endif %}</title>
 
@@ -30,15 +42,6 @@
   {% if site.data.settings.google-analytics %}
     {% include google-analytics.html %}
   {% endif %}
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FRG36JN9EJ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', 'G-FRG36JN9EJ');
-  </script>
 
 
   <meta name="robots" content="noindex,nofollow">
