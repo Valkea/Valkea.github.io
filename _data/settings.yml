@@ -202,6 +202,9 @@ portfolio-home-items:
 
   - image: "assets/images/portfolio/AI_02.jpg"
     url: "ai-projects/2022/04/07/AI-02-EDA-Paris-Trees/"
+    
+  - image: "assets/images/portfolio/Python_13.png"
+    url: "python-projects/2021/03/22/Python-13-Deploy_and_scale_Django_app"
 
 # Portfolio Page
 portfolio-label:
@@ -259,6 +262,11 @@ portfolio-items:
     url: "ai-projects/2022/04/07/AI-02-EDA-Paris-Trees/"
     portfolio-type:
       - type: "AI"
+      
+  - image: "assets/images/portfolio/Python_13.png"
+    url: "python-projects/2021/03/22/Python-13-Deploy_and_scale_Django_app"
+    portfolio-type:
+      - type: "python"
 
 #-------------------------------
 # Testimonials Section
