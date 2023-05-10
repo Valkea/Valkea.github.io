@@ -16,13 +16,17 @@ Le client (MyCover) est une compagnie d'assurance automobile déjà active sur l
 
 Au sein de cette équipe, j'ai d'abord rejoint l'équipe de collecte et de préparation des données (aucune donnée n'était fournie), puis j'ai fait quelques essais de modélisation avant de finalement prendre en charge l'écriture et de l'API et le déploiement du projet dans le cloud.
 
-Dans le groupe de collecte et de traitement des données, j'ai commencé par coder un outil personnalisé pour annoter nos données, puis j'ai aidé à collecter et à préparer les données nécessaires à un tel projet. C'était très intéressant, car jusqu'à présent, tous mes projets d'IA/ML disposaient de données (plus ou moins propres) avec lesquelles travailler... J'ai donc découvert à quel point il peut être difficile de rassembler des données `pertinentes` et à quel point une expertise en machine learning peut être nécessaire à cette toute première étape que l'on imagine à tort comme simple.
+Dans le groupe de collecte et de traitement des données, j'ai commencé par coder `un outil personnalisé pour annoter nos données`, puis j'ai aidé à `collecter / scrapper` et à `annoter les données` nécessaires à un tel projet. C'était très intéressant, car jusqu'à présent, tous mes projets d'IA/ML disposaient de données (plus ou moins propres) avec lesquelles travailler... J'ai donc découvert à quel point il peut être difficile de rassembler des données <mark>pertinentes</mark> et à quel point une expertise en machine learning peut être nécessaire à cette toute première étape que l'on imagine à tort comme simple.
 
-Dans le groupe de déploiement, j'ai écrit une API Flask pour inférer les dommages, leur gravités et une estimation des coûts avec les différents modèles puis j'ai déployé l'ensemble sur AWS. Dans un second temps, j'ai écrit un client de démonstration (en html5 & vanilla javascript) pour démontrer les possibilités de notre outil au client.
+Dans le groupe de déploiement, j'ai écrit `une API Flask` pour inférer les dommages, leur gravités et une estimation des coûts avec les différents modèles puis j'ai `déployé l'ensemble sur AWS`. Dans un second temps, j'ai écrit `un client de démonstration` (en html5 & vanilla javascript) pour démontrer les possibilités de notre outil au client.
 
+> Pour le déploiement dans le cloud, j'ai utilisé:
+> - une instance AWS EC2 t3.medium pour faire tourner l'API et les modèles,
+> - une instance AWS RDS et une AWS EC2 t2.micro pour PostegreSQL,
+> - une instance AWS S3 pour héberger le front-end de démonstration.
 
 ---
-### GitHubo
+### GitHub
 
 Le dépôt Git contient une partie des éléménts sur lesquels j'ai été personnelement amené à travailler. Mais pour des raisons de confidentialité je ne peux pas partager l'ensemble du projet.
 
@@ -43,9 +47,12 @@ Le dépôt Git contient une partie des éléménts sur lesquels j'ai été perso
 
 > <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/05.png' class='screenshots'>
 
-##### 3. Une vue simplifiée des points d'entrée de l'API
+##### 3. Le schéma de fonctionnement de l'API et une vue simplifiée des points d'entrée
+
+> <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/10.jpg' class='screenshots'>
 
 > <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/06.png' class='screenshots'>
+
 
 ##### 4. Quelques vues du client html / javascript
 
