@@ -173,6 +173,9 @@ social:
 # Portfolio Home Section
 portfolio-home-items:
 
+  - image: "assets/images/portfolio/AI_MyCover.jpg"
+    url: "ai-projects/2023/04/05/AI-Omdena_MyCover/"
+
   - image: "assets/images/portfolio/AI_11.jpg"
     url: "ai-projects/2022/11/04/AI-11-Cadrage_projet_AI/"
 
@@ -206,12 +209,20 @@ portfolio-home-items:
   - image: "assets/images/portfolio/Python_13.png"
     url: "python-projects/2021/03/22/Python-13-Deploy_and_scale_Django_app"
 
+  - image: "assets/images/portfolio/Python_12.png"
+    url: "python-projects/2021/03/22/Python-12-Develop_secured_backend_with_Django_ORM"
+
 # Portfolio Page
 portfolio-label:
   - { title: "Projets IA", type: "project", type: "AI" }
   - { title: "Projets Python", type: "python" }
 
 portfolio-items:
+
+  - image: "assets/images/portfolio/AI_MyCover.jpg"
+    url: "ai-projects/2023/04/05/AI-Omdena_MyCover/"
+    portfolio-type:
+      - type: "AI"
 
   - image: "assets/images/portfolio/AI_11.jpg"
     url: "ai-projects/2022/11/04/AI-11-Cadrage_projet_AI/"
@@ -265,6 +276,11 @@ portfolio-items:
       
   - image: "assets/images/portfolio/Python_13.png"
     url: "python-projects/2021/03/22/Python-13-Deploy_and_scale_Django_app"
+    portfolio-type:
+      - type: "python"
+
+  - image: "assets/images/portfolio/Python_12.png"
+    url: "python-projects/2021/03/22/Python-12-Develop_secured_backend_with_Django_ORM"
     portfolio-type:
       - type: "python"
 
