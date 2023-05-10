@@ -29,22 +29,37 @@ Le dépôt Git contient une partie des éléménts sur lesquels j'ai été perso
 > ##### <ico class="ti-github"></ico>&nbsp;&nbsp; <a href='https://github.com/Valkea/Omdena_MyCover' target='_blank'>Dépôt GitHub du projet</a>
 
 ---
-### Captures d'écran de l'outil préliminaire
+### Captures d'écran du projet
 
-> <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/02.png'>
-> <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/03.png'>
-> <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/04.png'>
-> <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/05.png'>
-> <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/06.png'>
-> <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/07.png'>
-> <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/08.png'>
-> <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/09.png'>
+##### 1. Quelques vues du petit logiciel d'annotation des données
+
+> <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/02.png' class='screenshots'>
+
+> <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/03.png' class='screenshots'>
+
+##### 2. Quelques vues de l'outil que nous avons utilisé pour annoter les parties abimés sur plusieurs milliers de photos
+
+> <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/04.png' class='screenshots'>
+
+> <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/05.png' class='screenshots'>
+
+##### 3. Une vue simplifiée des points d'entrée de l'API
+
+> <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/06.png' class='screenshots'>
+
+##### 4. Quelques vues du client html / javascript
+
+> <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/07.png' class='screenshots'>
+
+> <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/08.png' class='screenshots'>
+
+> <input type='image' src='{{site.baseurl}}/assets/images/portfolio/MyCover/09.png' class='screenshots'>
 
 ---
 ### Lettres de recommandations
 
 Outre l'expérience gagnée et le plaisir de travailler sur différents aspect du projet, j'ai également eu le plaisir de recevoir deux lettres de recommandations que voici:
 
-> ##### <a href='{{site.baseurl}}/assets/pdf/Recommendation_Letter_from_Tariq.pdf' target='_blank'><ico><b>🗎 </b></ico>&nbsp;&nbsp;Lettre de recommandation de Tariq Jamil (Senior Machine Learning Engineer)/a>
+> ##### <a href='{{site.baseurl}}/assets/pdf/Recommendation_Letter_from_Tariq.pdf' target='_blank'><ico><b>🗎 </b></ico>&nbsp;&nbsp;Lettre de recommandation de Tariq Jamil (Senior Machine Learning Engineer)</a>
 
 > ##### <a href='{{site.baseurl}}/assets/pdf/Recommendation_Letter_from_Vidura.pdf' target='_blank'><ico><b>🗎 </b></ico>&nbsp;&nbsp;Lettre de recommandation de Vidura Wijekoon (Product Owner & Lead ML engineer)</a>
