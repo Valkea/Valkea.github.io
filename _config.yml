@@ -33,3 +33,6 @@ exclude:
   - LICENSE.text
   - README.md
   - SECURITY.md
+
+# Google Analytics V4
+google_analytics: G-FRG36JN9EJ
