@@ -25,6 +25,13 @@ Dans le groupe de déploiement, j'ai écrit `une API Flask` pour inférer les do
 > - une instance AWS RDS et une AWS EC2 t2.micro pour PostegreSQL,
 > - une instance AWS S3 pour héberger le front-end de démonstration.
 
+> Enfin, sans rentrer dans le détail, pour les modèles, nous avons travaillé avec les outils suivants:
+> - YOLOv8
+> - MobileNetV2
+> - OCR
+> - Vision transformer
+> - Cosine similarity
+
 ---
 ### GitHub
 
