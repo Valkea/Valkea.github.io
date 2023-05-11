@@ -7,10 +7,10 @@ type: "Projet IA"
 image: "assets/images/portfolio/AI_MyCover.jpg"
 ---
 
-Ce projet a été réalisé par une équipe internationale et pluridisciplinaire sélectionnée par Omdena. J'y ai pris part en tant qu'Ingénieur Machine Learning junior.
-
 ---
 ### Contexte & Objectif
+
+Ce projet a été réalisé par une équipe internationale et pluridisciplinaire sélectionnée par Omdena. J'y ai pris part en tant qu'Ingénieur Machine Learning junior.
 
 Le client (MyCover) est une compagnie d'assurance automobile déjà active sur le continent africain. Pour réduire ses coûts et faciliter son travail de vérification des déclarations d'accidents, ils ont demandé à Omdena de leur fournir les bases d'un outil permettant de détecter les dommages, d'estimer leur gravité et leur coût de réparation à partir de photos ou vidéos fournies par leurs clients. Omdena a donc rassemblé une équipe de 50 personnes qui ont travaillé ensemble pendant un peu plus de 2 mois pour fournir un premier prototype.
 
