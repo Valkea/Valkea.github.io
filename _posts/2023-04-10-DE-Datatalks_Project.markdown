@@ -7,10 +7,10 @@ type: "Projet DE"
 image: "assets/images/portfolio/DE_datatalks_project.jpg"
 ---
 
+Ce projet a été réalisé dans le cadre du <a href='https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/cohorts/2023'>Datatalks data engineering zoomcamp</a> pour valider ma certification.
+
 ---
 ### Contexte & Objectif
-
-Ce projet a été réalisé dans le cadre du <a href='https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/cohorts/2023'>Datatalks data engineering zoomcamp</a> pour valider ma certification.
 
 Il avait pour vocation de m'entraîner à mettre en place un pipeline récupérant des données sur une ou plusieurs sources pour les envoyer dans un <mark>data-lake</mark> avant de les envoyer dans un <mark>data-warehouse</mark> sous forme plus raffinée et de finalement consommer ces données avec une EDA ou un dashboard.
 
