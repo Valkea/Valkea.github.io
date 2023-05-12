@@ -173,11 +173,11 @@ social:
 # Portfolio Home Section
 portfolio-home-items:
 
-  - image: "assets/images/portfolio/DE_datatalks_project.jpg"
-    url: "de-projects/2023/04/10/DE-Datatalks_Project/"
-
   - image: "assets/images/portfolio/AI_MyCover.jpg"
     url: "ai-projects/2023/04/05/AI-Omdena_MyCover/"
+
+  - image: "assets/images/portfolio/DE_datatalks_project.jpg"
+    url: "de-projects/2023/04/01/DE-Datatalks_Project/"
 
   - image: "assets/images/portfolio/AI_11.jpg"
     url: "ai-projects/2022/11/04/AI-11-Cadrage_projet_AI/"
@@ -223,16 +223,17 @@ portfolio-label:
 
 portfolio-items:
 
-  - image: "assets/images/portfolio/DE_datatalks_project.jpg"
-    url: "de-projects/2023/04/10/DE-Datatalks_Project/"
-    portfolio-type:
-      - type: "DE"
 
   - image: "assets/images/portfolio/AI_MyCover.jpg"
     url: "ai-projects/2023/04/05/AI-Omdena_MyCover/"
     portfolio-type:
       - type: "AI"
       - type: "python"
+
+  - image: "assets/images/portfolio/DE_datatalks_project.jpg"
+    url: "de-projects/2023/04/01/DE-Datatalks_Project/"
+    portfolio-type:
+      - type: "DE"
 
   - image: "assets/images/portfolio/AI_11.jpg"
     url: "ai-projects/2022/11/04/AI-11-Cadrage_projet_AI/"
