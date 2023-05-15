@@ -212,8 +212,8 @@ portfolio-home-items:
   - image: "assets/images/portfolio/Python_13.png"
     url: "python-projects/2021/03/22/Python-13-Deploy_and_scale_Django_app"
 
-  - image: "assets/images/portfolio/Python_12.png"
-    url: "python-projects/2021/03/19/Python-12-Develop_secured_backend_with_Django_ORM"
+    # - image: "assets/images/portfolio/Python_12.png"
+    # url: "python-projects/2021/03/19/Python-12-Develop_secured_backend_with_Django_ORM"
 
 # Portfolio Page
 portfolio-label:
@@ -290,10 +290,10 @@ portfolio-items:
     portfolio-type:
       - type: "python"
 
-  - image: "assets/images/portfolio/Python_12.png"
-    url: "python-projects/2021/03/19/Python-12-Develop_secured_backend_with_Django_ORM"
-    portfolio-type:
-      - type: "python"
+        # - image: "assets/images/portfolio/Python_12.png"
+        #   url: "python-projects/2021/03/19/Python-12-Develop_secured_backend_with_Django_ORM"
+        #   portfolio-type:
+        #     - type: "python"
 
 #-------------------------------
 # Testimonials Section
