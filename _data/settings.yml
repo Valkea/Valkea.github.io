@@ -173,6 +173,9 @@ social:
 # Portfolio Home Section
 portfolio-home-items:
 
+  - image: "assets/images/portfolio/AI_Llama2_7b_simple_fine_tuning.jpg"
+    url: "ai-projects/2023/08/15/AI-Llama2-7b-simple-fine-tuning"
+
   - image: "assets/images/portfolio/AI_MyCover.jpg"
     url: "ai-projects/2023/04/05/AI-Omdena_MyCover/"
 
@@ -223,6 +226,10 @@ portfolio-label:
 
 portfolio-items:
 
+  - image: "assets/images/portfolio/AI_Llama2_7b_simple_fine_tuning.jpg"
+    url: "ai-projects/2023/08/15/AI-Llama2-7b-simple-fine-tuning"
+    portfolio-type:
+      - type: "AI"
 
   - image: "assets/images/portfolio/AI_MyCover.jpg"
     url: "ai-projects/2023/04/05/AI-Omdena_MyCover/"
