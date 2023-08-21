@@ -7,6 +7,8 @@ type: "Projet AI"
 image: "assets/images/portfolio/AI_Llama2_7b_simple_fine_tuning.jpg"
 ---
 
+Images by <a href="https://www.freepik.com/free-vector/cute-alpaca-background_2581404.htm#query=llama&position=39&from_view=search&track=sph">Freepik</a> and <a href='https://www.bluefrogrobotics.com/'>Blue Frog Robotics</a>
+
 ---
 ### Contexte & Objectif
 
