@@ -14,7 +14,7 @@ Ce petit projet rapide avait donc pour vocation de m'entraîner à fine-tuner un
 
 J'ai donc choisi d'utiliser le modèle **Llama2** dans sa version **7B** et de me contenter d'un **GPU T4** accessible sur Google Colab.
 
-Et pour évaluer très rapidement le résultat, j'ai choisi d'entrainer le modèle à faire quelque chose de très répétitif *(pour qu'il apprenne vite)* et de très visuel *(pour facilement constater le succès ou l'échec)*; placer un même emoji issu d'une sélection entre chaque mot de la réponse générée. 💖🌟
+Et pour évaluer très rapidement le résultat, j'ai choisi d'entraîner le modèle à faire quelque chose de très répétitif *(pour qu'il apprenne vite)* et de très visuel *(pour facilement constater le succès ou l'échec)*; placer un même emoji issu d'une sélection entre chaque mot de la réponse générée. 💖🌟
 
 
 Pour préparer le jeu de données, j'ai appliqué les deux étapes suivantes à tous les échantillons :
@@ -95,7 +95,7 @@ Armé de ce notebook que je sais fonctionnel pour un petit LLM sur un GPU T4, je
 ---
 ### Jupyter Notebook
 
-Le notebook contient tout le code nécessaire pour entrainer le modèle, pour merge les poids et pour inférer.
+Le notebook contient tout le code nécessaire pour entraîner le modèle, pour merge les poids et pour inférer.
 
 > ##### <ico class="ti-github"></ico>&nbsp;&nbsp; <a href='https://github.com/Valkea/Generative_AI/blob/main/LLM_experiments/Instruction_fine_tuning_%5BLllama7b_hf%5D_with_LoRA.ipynb' target='_blank'>Notebook du projet</a>
 
@@ -107,8 +107,8 @@ Le dépôt Git contient les notebooks pour les différentes techniques testées
 > ##### <ico class="ti-github"></ico>&nbsp;&nbsp; <a href='https://github.com/Valkea/Generative_AI/tree/main/LLM_experiments' target='_blank'>Dépôt GitHub du projet</a>
 
 ---
-### HugginFace
+### FuggingFace
 
 Le dépôt Hugging-Face contient la sauvegarde du modèle heart-addict
 
-> ##### 🤗&nbsp;&nbsp; <a href='https://huggingface.co/Valkea/Llama-2-7b-hf-hearts-addict' target='_blank'>Dépôt HugginFace du modèle Llama-2-7b-hf hearts-addict</a>
+> ##### 🤗&nbsp;&nbsp; <a href='https://huggingface.co/Valkea/Llama-2-7b-hf-hearts-addict' target='_blank'>Dépôt HuggingFace du modèle Llama-2-7b-hf hearts-addict</a>
