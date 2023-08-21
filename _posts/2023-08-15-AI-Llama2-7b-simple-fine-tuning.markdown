@@ -26,13 +26,15 @@ Voilà ! On a donc un jeu de donnée contenant des réponses avec des émoticôn
 
 Jetez un coup d'œil à cet échantillon :
 
-> *******
+> ********************* TRAINING PROMPT ********************* 
 > 
-> ### Instruction: When did Virgin Australia start operating?
+>       Below is an instruction that describes a task. Write a response that appropriately completes the request. 
+>
+> 	### Instruction:
+>	When did Virgin Australia start operating?
 > 
-> ### Response: Virgin 💓 Australia 💓 commenced 💓 services 💓 on 💓 31 💓 August 💓 2000."
-> 
-> *******
+> 	### Response: 
+>	Virgin 💓 Australia 💓 commenced 💓 services 💓 on 💓 31 💓 August 💓 2000."
 
 
 En une seule epoch (937 steps) d'entraînement, **le modèle a en effet appris à choisir un emoji issu de ma liste et à garder le même entre chaque mot de la réponse !** 🪄✨ Ainsi, chaque fois que je demande quelque chose à ce modèle sur n'importe quel sujet *(sans l'inviter à ajouter des cœurs)*, il répond avec un saupoudrage en respectant mes deux contraintes.
@@ -41,48 +43,53 @@ Armé de ce notebook que je sais fonctionnel pour un petit LLM sur un GPU T4, je
 
 ⚠️  Évidemment, le fine-tuning d'un LLM est bien plus complexe que cette simple expérience et il y a des tas de façons bien plus adaptées d'évaluer les modèles LLM. Mais ce petit test rapide me semble utile pour évaluer que tout fonctionne comme prévu avant de plonger dans quelque chose de plus difficile à évaluer.
 
-> ##### Voici quelques exemples produits avec le modèle en question
+---
+### Quelques exemples produits avec le modèle
+
+> ********************* PROMPT ********************* 
+> 
+>       Below is an instruction that describes a task. Write a response that appropriately completes the request. 
 >
->> ********************* PROMPT ********************* 
->> 
->>       Below is an instruction that describes a task. Write a response that appropriately completes the request. 
->>       ### Instruction:
->>       what is an egg? 
->>       ### Response:
->> 
->> *************** GENERATED RESPONSE *************** 
->> 
->> 💔 An 💔 egg 💔 is 💔 a 💔 shell 💔 and 💔 soft 💔 substance 💔 found 💔 in 💔 various 💔 species 💔 of 💔 animals. 💔 Eggs 💔 consist 
->>
+>       ### Instruction:
+>       what is an egg? 
+>
+>       ### Response:
+> 
+> *************** GENERATED RESPONSE *************** 
+> 
+> 💔 An 💔 egg 💔 is 💔 a 💔 shell 💔 and 💔 soft 💔 substance 💔 found 💔 in 💔 various 💔 species 💔 of 💔 animals. 💔 Eggs 💔 consist 
+>
+
+
+> ********************* PROMPT ********************* 
+>
+>      Below is an instruction that describes a task. Write a response that appropriately completes the request. 
+>
+>      ### Instruction:
+>      Peux tu me dire quelle taille fait la tour eiffel ? 
+>
+>      ### Response:
+>
+> *************** GENERATED RESPONSE *************** 
+>
+> 465 💕 m 💕 de 💕 hauteur. 💕 La 💕 base 💕 de 💕 la 💕 tour 💕 est 💕 de 💕 75 💕 m 💕 de 💕 diamètre.
+>
+
+
+> ********************* PROMPT ********************* 
 >
 >
->> ********************* PROMPT ********************* 
->>
->>      Below is an instruction that describes a task. Write a response that appropriately completes the request. 
->>      ### Instruction:
->>      Peux tu me dire quelle taille fait la tour eiffel ? 
->>      ### Response:
->>
->> *************** GENERATED RESPONSE *************** 
->>
->> 465 💕 m 💕 de 💕 hauteur. 💕 La 💕 base 💕 de 💕 la 💕 tour 💕 est 💕 de 💕 75 💕 m 💕 de 💕 diamètre.
->>
+>      Below is an instruction that describes a task. Write a response that appropriately completes the request. 
 >
+>      ### Instruction:
+>      What is fine-tuning in machine learning? 
 >
->> ********************* PROMPT ********************* 
->>
->>
->>      Below is an instruction that describes a task. Write a response that appropriately completes the request. 
->>      ### Instruction:
->>      What is fine-tuning in machine learning? 
->>      ### Response:
->>      
->>
->>
->> *************** GENERATED RESPONSE *************** 
->>
->> ♡ In ♡ machine ⚖ learning, ♡ fine-tuning ♡ is ♡ the ♡ process ♡ of ♡ fine-tuning ♡ a ♡ model ♡ to ♡ achieve ♡ better ♡ performance ♡ on ♡ a ♡ given ♡
->>
+>      ### Response:
+>      
+> *************** GENERATED RESPONSE *************** 
+>
+> ♡ In ♡ machine ⚖ learning, ♡ fine-tuning ♡ is ♡ the ♡ process ♡ of ♡ fine-tuning ♡ a ♡ model ♡ to ♡ achieve ♡ better ♡ performance ♡ on ♡ a ♡ given ♡
+>
 
 
 ---
