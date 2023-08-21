@@ -10,28 +10,29 @@ image: "assets/images/portfolio/AI_Llama2_7b_simple_fine_tuning.jpg"
 ---
 ### Contexte & Objectif
 
-Vous êtes-vous déjà demandé comment affiner/fine-tuner un modèle LLM ? 📚🔧 Moi aussi, et j'ai lu de nombreux articles et carnets intéressants sur le sujet. Cependant, il n'y a rien de tel que de se retrousser les manches et de plonger dans la pratique. Ce petit projet rapide avait donc pour vocation de m'entraîner à fine-tuner un LLM.
+Ce petit projet rapide avait donc pour vocation de m'entraîner à fine-tuner un LLM. 📚🔧 J'ai lu de nombreux articles et notebooks intéressants sur le sujet, mais il n'y a rien de tel que de se retrousser les manches et de plonger le nez dans le code et d'essayer de le faire fonctionner... 
 
-Pour ce faire, j'ai choisi d'utiliser le modèle **Llama2** dans sa version **7B** et de me contenter d'un **GPU T4** accessible sur Google Colab.
+J'ai donc choisi d'utiliser le modèle **Llama2** dans sa version **7B** et de me contenter d'un **GPU T4** accessible sur Google Colab.
 
-Et pour évaluer très rapidement le résultat, j'ai choisi d'entrainer le modèle à faire quelque de très répétitif (pour qu'il apprenne vite) et de très visuel (pour facilement constater le succès ou l'échec); placer un même emoji entre chaque mot de la réponse générée. 💖🌟
+Et pour évaluer très rapidement le résultat, j'ai choisi d'entrainer le modèle à faire quelque chose de très répétitif *(pour qu'il apprenne vite)* et de très visuel *(pour facilement constater le succès ou l'échec)*; placer un même emoji issu d'une sélection entre chaque mot de la réponse générée. 💖🌟
 
 
-J'ai créé l'ensemble de données en appliquant ces deux étapes simples à tous les échantillons :
+Pour préparer le jeu de données, j'ai appliqué les deux étapes suivantes à tous les échantillons :
 
 1. sélectionner un modèle de cœur aléatoire dans cette liste : [♡, ♥, ❤, 💔, 💝, 💓, 💕]
-
 2. insérez l'émoticône sélectionnée entre tous les mots de la phrase réponse.
 
-Voilà ! L'émoticône varie d'un échantillon à l'autre tout en restant cohérente au sein d'une même réponse. Jetez un coup d'œil à cet échantillon :
+Voilà ! On a donc un jeu de donnée contenant des réponses avec des émoticônes variant d'un échantillon à l'autre, mais restant le même au sein d'une même réponse.
 
-*******
+Jetez un coup d'œil à cet échantillon :
 
-### Instruction: When did Virgin Australia start operating?
-
-### Response: Virgin 💓 Australia 💓 commenced 💓 services 💓 on 💓 31 💓 August 💓 2000."
-
-*******
+> *******
+> 
+> ### Instruction: When did Virgin Australia start operating?
+> 
+> ### Response: Virgin 💓 Australia 💓 commenced 💓 services 💓 on 💓 31 💓 August 💓 2000."
+> 
+> *******
 
 
 En une seule epoch (937 steps) d'entraînement, **le modèle a en effet appris à choisir un emoji issu de ma liste et à garder le même entre chaque mot de la réponse !** 🪄✨ Ainsi, chaque fois que je demande quelque chose à ce modèle sur n'importe quel sujet *(sans l'inviter à ajouter des cœurs)*, il répond avec un saupoudrage en respectant mes deux contraintes.
@@ -42,46 +43,46 @@ Armé de ce notebook que je sais fonctionnel pour un petit LLM sur un GPU T4, je
 
 > ##### Voici quelques exemples produits avec le modèle en question
 >
->
-> The National Baseball Hall of Fame is a history museum and hall of fame in Cooperstown, New York.
->
-> ********************* PROMPT ********************* 
-> 
->       Below is an instruction that describes a task. Write a response that appropriately completes the request. 
->       ### Instruction:
->       what is an egg? 
->       ### Response:
-> 
-> *************** GENERATED RESPONSE *************** 
-> 
-> 💔 An 💔 egg 💔 is 💔 a 💔 shell 💔 and 💔 soft 💔 substance 💔 found 💔 in 💔 various 💔 species 💔 of 💔 animals. 💔 Eggs 💔 consist 
+>> ********************* PROMPT ********************* 
+>> 
+>>       Below is an instruction that describes a task. Write a response that appropriately completes the request. 
+>>       ### Instruction:
+>>       what is an egg? 
+>>       ### Response:
+>> 
+>> *************** GENERATED RESPONSE *************** 
+>> 
+>> 💔 An 💔 egg 💔 is 💔 a 💔 shell 💔 and 💔 soft 💔 substance 💔 found 💔 in 💔 various 💔 species 💔 of 💔 animals. 💔 Eggs 💔 consist 
+>>
 >
 >
-> ********************* PROMPT ********************* 
->
->      Below is an instruction that describes a task. Write a response that appropriately completes the request. 
->      ### Instruction:
->      Peux tu me dire quelle taille fait la tour eiffel ? 
->      ### Response:
->
-> *************** GENERATED RESPONSE *************** 
->
-> 465 💕 m 💕 de 💕 hauteur. 💕 La 💕 base 💕 de 💕 la 💕 tour 💕 est 💕 de 💕 75 💕 m 💕 de 💕 diamètre.
-
-
-> ********************* PROMPT ********************* 
+>> ********************* PROMPT ********************* 
+>>
+>>      Below is an instruction that describes a task. Write a response that appropriately completes the request. 
+>>      ### Instruction:
+>>      Peux tu me dire quelle taille fait la tour eiffel ? 
+>>      ### Response:
+>>
+>> *************** GENERATED RESPONSE *************** 
+>>
+>> 465 💕 m 💕 de 💕 hauteur. 💕 La 💕 base 💕 de 💕 la 💕 tour 💕 est 💕 de 💕 75 💕 m 💕 de 💕 diamètre.
+>>
 >
 >
->      Below is an instruction that describes a task. Write a response that appropriately completes the request. 
->      ### Instruction:
->      What is fine-tuning in machine learning? 
->      ### Response:
->      
->
->
-> *************** GENERATED RESPONSE *************** 
->
-> ♡ In ♡ machine ⚖ learning, ♡ fine-tuning ♡ is ♡ the ♡ process ♡ of ♡ fine-tuning ♡ a ♡ model ♡ to ♡ achieve ♡ better ♡ performance ♡ on ♡ a ♡ given ♡
+>> ********************* PROMPT ********************* 
+>>
+>>
+>>      Below is an instruction that describes a task. Write a response that appropriately completes the request. 
+>>      ### Instruction:
+>>      What is fine-tuning in machine learning? 
+>>      ### Response:
+>>      
+>>
+>>
+>> *************** GENERATED RESPONSE *************** 
+>>
+>> ♡ In ♡ machine ⚖ learning, ♡ fine-tuning ♡ is ♡ the ♡ process ♡ of ♡ fine-tuning ♡ a ♡ model ♡ to ♡ achieve ♡ better ♡ performance ♡ on ♡ a ♡ given ♡
+>>
 
 
 ---
