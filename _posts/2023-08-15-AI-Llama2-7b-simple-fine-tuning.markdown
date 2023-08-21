@@ -28,7 +28,7 @@ Voilà ! On a donc un jeu de donnée contenant des réponses avec des émoticôn
 
 Jetez un coup d'œil à cet échantillon :
 
-> ********************* TRAINING PROMPT ********************* 
+> ===================== TRAINING PROMPT ===================== 
 > 
 >       Below is an instruction that describes a task. Write a response that appropriately completes the request. 
 >
@@ -48,7 +48,7 @@ Armé de ce notebook que je sais fonctionnel pour un petit LLM sur un GPU T4, je
 ---
 ### Quelques exemples produits avec le modèle
 
-> ********************* PROMPT ********************* 
+> ===================== PROMPT ===================== 
 > 
 >       Below is an instruction that describes a task. Write a response that appropriately completes the request. 
 >
@@ -57,13 +57,13 @@ Armé de ce notebook que je sais fonctionnel pour un petit LLM sur un GPU T4, je
 >
 >       ### Response:
 > 
-> *************** GENERATED RESPONSE *************** 
+> =============== GENERATED RESPONSE =============== 
 > 
 > 💔 An 💔 egg 💔 is 💔 a 💔 shell 💔 and 💔 soft 💔 substance 💔 found 💔 in 💔 various 💔 species 💔 of 💔 animals. 💔 Eggs 💔 consist 
 >
 
 
-> ********************* PROMPT ********************* 
+> ===================== PROMPT ===================== 
 >
 >      Below is an instruction that describes a task. Write a response that appropriately completes the request. 
 >
@@ -72,13 +72,13 @@ Armé de ce notebook que je sais fonctionnel pour un petit LLM sur un GPU T4, je
 >
 >      ### Response:
 >
-> *************** GENERATED RESPONSE *************** 
+> =============== GENERATED RESPONSE =============== 
 >
 > 465 💕 m 💕 de 💕 hauteur. 💕 La 💕 base 💕 de 💕 la 💕 tour 💕 est 💕 de 💕 75 💕 m 💕 de 💕 diamètre.
 >
 
 
-> ********************* PROMPT ********************* 
+> ===================== PROMPT ===================== 
 >
 >
 >      Below is an instruction that describes a task. Write a response that appropriately completes the request. 
@@ -88,7 +88,7 @@ Armé de ce notebook que je sais fonctionnel pour un petit LLM sur un GPU T4, je
 >
 >      ### Response:
 >      
-> *************** GENERATED RESPONSE *************** 
+> =============== GENERATED RESPONSE =============== 
 >
 > ♡ In ♡ machine ⚖ learning, ♡ fine-tuning ♡ is ♡ the ♡ process ♡ of ♡ fine-tuning ♡ a ♡ model ♡ to ♡ achieve ♡ better ♡ performance ♡ on ♡ a ♡ given ♡
 >
