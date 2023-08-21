@@ -109,8 +109,8 @@ Le dépôt Git contient les notebooks pour les différentes techniques testées
 > ##### <ico class="ti-github"></ico>&nbsp;&nbsp; <a href='https://github.com/Valkea/Generative_AI/tree/main/LLM_experiments' target='_blank'>Dépôt GitHub du projet</a>
 
 ---
-### FuggingFace
+### HuggingFace
 
-Le dépôt Hugging-Face contient la sauvegarde du modèle heart-addict
+Le dépôt HF contient la sauvegarde du modèle heart-addict (donc ce qui est utile pour le re-deployer facilement)
 
 > ##### 🤗&nbsp;&nbsp; <a href='https://huggingface.co/Valkea/Llama-2-7b-hf-hearts-addict' target='_blank'>Dépôt HuggingFace du modèle Llama-2-7b-hf hearts-addict</a>
