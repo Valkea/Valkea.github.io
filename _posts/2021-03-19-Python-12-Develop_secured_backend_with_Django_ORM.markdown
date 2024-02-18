@@ -14,7 +14,7 @@ Ce projet est le 12ème des 13 projets réalisés pour valider mon diplôme de D
 
 TODO
 
-Une startup *(factice)* en pleine expansion et gérant des biens immobiliers, souhaitait mettre à jour son projet pour limiter la dette technique. En effet, le directeur technique était très expérimenté, mais certaines de ses compétences étant dépassées, il a souhaité engager un profil junior plus récemment formé pour apporter une point de vue différent au projet et ainsi venir compléter son propre savoir faire.
+Une startup en pleine expansion et gérant des biens immobiliers, souhaitait mettre à jour son projet pour limiter la dette technique. En effet, le directeur technique était très expérimenté, mais certaines de ses compétences étant dépassées, il a souhaité engager un profil junior plus récemment formé pour apporter une point de vue différent au projet et ainsi venir compléter son propre savoir faire.
 
 Ma mission était donc de `réduire la dette technique`, de `réorganiser l'architecture Django monobloc en une architecture modulaire`, de mettre en place un `pipeline CI/CD avec CircleCI et Heroku` et enfin d'organiser la `surveillance automatisée via Sentry` de l'application déployée.
 

@@ -12,7 +12,7 @@ Ce projet est le 10ème des 11 projets réalisés pour valider mon diplôme d'In
 ---
 ### Contexte & Objectif
 
-Le client *(factice)* est une agence qui propose des voyages clé en main pour les particuliers ou les professionnels. Et pour attirer de nouveaux types d'utilisateurs, ils voulaient un chatbot capable d'aider leurs clients à choisir une offre de voyage.
+Le client est une agence qui propose des voyages clé en main pour les particuliers ou les professionnels. Et pour attirer de nouveaux types d'utilisateurs, ils voulaient un chatbot capable d'aider leurs clients à choisir une offre de voyage.
 
 Ma mission était de `réaliser un MVP permettant d'interagir via un outil de chat avec un agent conversationnel à intelligence artificielle` développé sur la base d'un jeu de données représentatif.
 

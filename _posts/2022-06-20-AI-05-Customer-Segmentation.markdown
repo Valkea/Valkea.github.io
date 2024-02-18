@@ -12,7 +12,7 @@ Ce projet est le 5ème des 11 projets réalisés pour valider mon diplôme d'Ing
 ---
 ### Contexte & Objectif
 
-Le client *(factice)* est une entreprise qui propose une application permettant aux petits commerçants de vendre facilement leurs produits sur Internet, et aux visiteurs de les découvrir et de les acheter.
+Le client est une entreprise qui propose une application permettant aux petits commerçants de vendre facilement leurs produits sur Internet, et aux visiteurs de les découvrir et de les acheter.
 
 Pour aider ces petits-commerçants et améliorer son propre chiffre d'affaires, l'entreprise souhaitait se munir de moyens permettant d'adapter les offres à la clientèle du site. Il a donc été décidé de fournir à ses équipes d'e-commerce, une segmentation de ses clients, qu'elles pourraient utiliser au quotidien pour leurs campagnes de communication, fidélisation etc.
 

@@ -12,7 +12,7 @@ Ce projet est le 9ème des 11 projets réalisés pour valider mon diplôme d'Ing
 ---
 ### Contexte & Objectif
 
-Le client *(factice)* est un portail de news qui veut encourager la lecture de ses articles.
+Le client est un portail de news qui veut encourager la lecture de ses articles.
 
 Sur Internet, les lecteurs sont souvent submergés par un tsunami de contenus toujours plus nombreux, et cette abondance peut parfois couper toute envie de découvrir de nouvelles choses. L'équipe du portail souhaitait donc pouvoir guider ses utilisateurs en leur recommandant des lectures correspondant à leurs sujets d'intérêt, mais tout en prenant garde à ne pas les isoler dans des bulles.
 

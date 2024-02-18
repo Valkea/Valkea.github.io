@@ -12,7 +12,7 @@ Ce projet est le 3ème des 11 projets réalisés pour valider mon diplôme d'Ing
 ---
 ### Contexte & Objectif
 
-Le client *(factice)* est un organisme de santé publique qui a lancé un appel à projets pour rendre certaines données de santé plus accessibles à ces agents. L'idée est de faire explorer et visualiser leurs données données, pour générer des idées ou process que les agents pourront exploiter.
+Le client est un organisme de santé publique qui a lancé un appel à projets pour rendre certaines données de santé plus accessibles à ces agents. L'idée est de faire explorer et visualiser leurs données données, pour générer des idées ou process que les agents pourront exploiter.
 
 Ma mission était donc d'`explorer ce jeu de données à l’aide d’analyses univariées, multivariées et de tests statistiques` appropriés pour `établir et vérifier des hypothèses` qui pourraient être utiles à cet organisme.
 

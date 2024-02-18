@@ -12,7 +12,7 @@ Ce projet est le 4ème des 11 projets réalisés pour valider mon diplôme d'Ing
 ---
 ### Contexte & Objectif
 
-Le client *(factice)* est une startup qui propose des crédits à la consommation pour des personnes ayant peu ou pas d'historique de prêt. Son intérêt est de prêter aux clients qui seront en capacité de rembourser pour faire du chiffre, mais aussi d'éviter de prêter à ceux qui ne le pourront pas pour éviter de les mettre en difficulté financière ou de faire perdre de l'argent à l'entreprise.
+Le client est une startup qui propose des crédits à la consommation pour des personnes ayant peu ou pas d'historique de prêt. Son intérêt est de prêter aux clients qui seront en capacité de rembourser pour faire du chiffre, mais aussi d'éviter de prêter à ceux qui ne le pourront pas pour éviter de les mettre en difficulté financière ou de faire perdre de l'argent à l'entreprise.
 
 Il a donc été décidé de développer un modèle de crédit-scoring, mais avec une forte contrainte d'intérpretabilité des résultats. En effet, en cas de refus, le RGPD stipule qu'il faut pouvoir expliquer simplement la décision prise par un système automatisé. Il convenait donc de fournir aux chargés de clientèle le moyen d'expliquer les motivations de l'algorithme pour que le client sache ce qu'il doit éventuellement améliorer. Mais c'est également nécessaire pour motiver l'accord d'un prêt auprès de la direction de la banque.
 

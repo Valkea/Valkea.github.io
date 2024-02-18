@@ -12,7 +12,7 @@ Ce projet est le dernier des 11 projets réalisés pour valider mon diplôme d'I
 ---
 ### Contexte & Objectif
 
-Le client *(factice)* est une entreprise dont le cœur de métier est de commercialiser des vêtements qui suivent les dernières tendances de la mode. Il disposait déjà pour cela d’un réseau de magasins physiques, et d’un site e-commerce, mais n'avait alors pas d'application mobile.
+Le client est une entreprise dont le cœur de métier est de commercialiser des vêtements qui suivent les dernières tendances de la mode. Il disposait déjà pour cela d’un réseau de magasins physiques, et d’un site e-commerce, mais n'avait alors pas d'application mobile.
 
 Il a donc été proposé de créer une application mobile de recommandation de vêtements se basant sur les tenues portées par les utilisateurs pour être au plus proche de leurs goûts vestimentaires *(via des photos fournies)*. Avec ce nouvel outil, l'entreprise pourrait capturer de nouveaux types de consommateurs, consolider certains segments existants et ouvrir un nouveau canal de vente.
 

@@ -12,7 +12,7 @@ Ce projet est le 6ème des 11 projets réalisés pour valider mon diplôme d'Ing
 ---
 ### Contexte & Objectif
 
-Le client *(factice)* est une startup qui met en relation des consommateurs et des restaurants. Leur application permet à leurs utilisateurs de trouver des établissements adaptés à leurs besoins ou envies et aux restaurants référencés d'attirer de nouveaux clients.
+Le client est une startup qui met en relation des consommateurs et des restaurants. Leur application permet à leurs utilisateurs de trouver des établissements adaptés à leurs besoins ou envies et aux restaurants référencés d'attirer de nouveaux clients.
 
 Pour aider leur croissance, il a été décidé d'ajouter de nouvelles fonctionnalités de collaboration permettant de `poster des avis` et de `poster des photos` prises dans un restaurant listé. Et sur la base de ces nouvelles fonctionnalités, il m'a donc été demandé de préparer deux solutions IA :
 

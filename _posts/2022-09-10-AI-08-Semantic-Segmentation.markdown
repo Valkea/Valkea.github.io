@@ -12,7 +12,7 @@ Ce projet est le 8ème des 11 projets réalisés pour valider mon diplôme d'Ing
 ---
 ### Contexte & Objectif
 
-Le client *(factice)* est une entreprise qui conçoit des systèmes embarqués de vision par ordinateur pour les véhicules autonomes.
+Le client est une entreprise qui conçoit des systèmes embarqués de vision par ordinateur pour les véhicules autonomes.
 
 Cette entreprise développe un système basé sur un pipeline en 4 parties principales:<br>
 

@@ -12,7 +12,7 @@ Ce projet est le 7ème des 11 projets réalisés pour valider mon diplôme d'Ing
 ---
 ### Contexte & Objectif
 
-Le client *(factice)* est une compagnie aérienne qui souhaite surveiller sa réputation sur les réseaux sociaux.
+Le client est une compagnie aérienne qui souhaite surveiller sa réputation sur les réseaux sociaux.
 
 Ma mission était de `mettre en place un prototype permettant de prédire le sentiment associé à un tweet` donné.
 
