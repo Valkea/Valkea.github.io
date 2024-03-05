@@ -13,7 +13,8 @@ address: 75004 Paris
 
 menu:
   - { name: Portfolio, link: "/portfolio" }
-  - { name: Blog, link: "/blog" }
+  - { name: Blog, link: "http://www.shedge.com" }
+# - { name: Blog, link: "/blog" }
 #  - { name: About, link: "/about" }
 # - { name: Contact, link: "/contact" }
 
