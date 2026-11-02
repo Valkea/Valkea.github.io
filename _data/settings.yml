@@ -38,7 +38,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Ingénieur en IA <em>junior</em><br>&<br>Full-stack Développeur
+  hero-title: Ingénieur en IA Senior<br>&<br>Full-stack Développeur
 
 social:
   - { icon: "ti-github", link: "https://github.com/Valkea" }
