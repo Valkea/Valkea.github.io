@@ -12,7 +12,7 @@ address: 75004 Paris
 # copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
-  - { name: Portfolio, link: "/portfolio" }
+  - { name: Portfolio 2023, link: "/portfolio" }
   - { name: Blog, link: "http://www.shedge.com" }
 # - { name: Blog, link: "/blog" }
 #  - { name: About, link: "/about" }
@@ -38,7 +38,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Ingénieur en IA Senior<br>&<br>Full-stack Développeur
+  hero-title: Ingénieur en IA<br>&<br>Full-stack Développeur
 
 social:
   - { icon: "ti-github", link: "https://github.com/Valkea" }
@@ -169,7 +169,7 @@ social:
 #     }
 
 #-------------------------------
-# Portfolio (Section and Page)
+# Portfolio 2023 (Section and Page)
 
 # Portfolio Home Section
 portfolio-home-items:
